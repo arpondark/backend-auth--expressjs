@@ -51,12 +51,24 @@ npm start
 
 - **POST /auth/signup** - Register a new user
   - Request body:
-  ```
-   `{ "name": "User Name", "email": "user@example.com", "password": "securepassword" }`
+  ```json
+   { "name": "User Name", 
+   "email": "user@example.com", 
+   "password": "securepassword" 
+   }
+   ```
 
 - **POST /auth/login** - User login
-  - Request body: `{ "email": "user@example.com", "password": "securepassword" }`
+  - Request body: 
+  ```json
+  { 
+    "email": "user@example.com",
+   "password": "securepassword" 
+  }
+  ```
+  
   - Returns: JWT token for authentication
+
 
 ## Project Structure
 
