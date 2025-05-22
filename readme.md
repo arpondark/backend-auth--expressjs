@@ -20,7 +20,7 @@ A robust authentication backend system built with Express.js that provides secur
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/arpondark/backend-auth--expressjs.git
 cd Auth-expresss-/backend
 ```
 
