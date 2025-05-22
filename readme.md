@@ -50,7 +50,9 @@ npm start
 ### Authentication
 
 - **POST /auth/signup** - Register a new user
-  - Request body: `{ "name": "User Name", "email": "user@example.com", "password": "securepassword" }`
+  - Request body:
+  ```
+   `{ "name": "User Name", "email": "user@example.com", "password": "securepassword" }`
 
 - **POST /auth/login** - User login
   - Request body: `{ "email": "user@example.com", "password": "securepassword" }`
